@@ -1,0 +1,23 @@
+{
+    "project": [{
+        "id": 1,
+        "name": "Email and phone number form",
+        "description":"HTML, CSS, Bootstrap4",
+        "language":"Javascript validate, pre submit",
+        "githubLink": "https://github.com/NguyenKyThinh94/sendEmailForm"
+    }, 
+    {
+        "id": 2,
+        "name": "My Curriculum Vitae",
+        "description":"Using grid of Bootstrap4",
+        "language":"AJAX with axios on click event",
+        "githubLink": "https://github.com/NguyenKyThinh94/MyCV"
+    }, 
+    {
+        "id": 3,
+        "name": "My Curriculum Vitae",
+        "description":"HTML, CSS, Bootstrap4",
+        "language":"AJAX with axios",
+        "githubLink": "https://github.com/NguyenKyThinh94/MyCV"
+    }]
+}
