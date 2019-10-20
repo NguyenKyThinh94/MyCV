@@ -23,28 +23,28 @@ function loadMoreProject(){
     
 }
 function Reder(data,id){
+ 
     for(i=0;i<=2;i++){
-        if(i==id){
-            let query="#project"+ (i+1).toString();
-            let btquery="#moreProject"+ (i+1).toString();
-            let element = document.querySelector(query);
-            let button =document.querySelector(btquery);
-            if(element.innerHTML==""){
+        let query="#project"+ (i+1).toString();
+        let btquery="#moreProject"+ (i+1).toString();
+        let element = document.querySelector(query);
+        let button =document.querySelector(btquery);
+        console.log(button);
+        if(i==id){            
+            if(element.innerHTML.length < 5){
                 button.setAttribute('class','fas fa-minus-circle d-inline-block mx-2 cursorAlias');
                 element.innerHTML=
-                "<p class='pl-5'>Description:"+data.description+"</p>"+
-                "<p class='pl-5'>Programming language:"+data.language+"</p>"+
+                "<p class='pl-5'>Description:"+data.language+"</p>"+
                 "<p class='pl-5'>Source code:"+data.githubLink+"</p>";
             } else {
                 element.innerHTML="";
                 button.setAttribute('class','fas fa-plus-circle mx-2 d-block cursorCopy')
-            }
-           
-        
+            }        
         } else {
             let query="#project"+ (i+1).toString();
             let element = document.querySelector(query);
             element.innerHTML="";
+            button.setAttribute('class','fas fa-plus-circle mx-2 d-block cursorCopy')
         }
     }
    
