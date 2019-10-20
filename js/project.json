@@ -13,8 +13,8 @@
     }, 
     {
         "id": 3,
-        "name": "My Curriculum Vitae",
-        "language":"AJAX with axios",
-        "githubLink": "https://github.com/NguyenKyThinh94/MyCV"
+        "name": "Website manages automative fuel station",
+        "language": "The purpose of this project is to manage, supervisory consumptional history of employees that is managed of DaNang Port Company and supervisory, statistic fuel level of operating vehicles that are managed at real time, link http://emcomestic.com",
+        "githubLink": "git@github.com:thinhivt/simcom.git git-clone"
     }]
 }
